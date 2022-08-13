@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+/* 1. GENERAL STYLES */
+html {
+  box-sizing:border-box;
+}
+*, *::before, *::after {
+  box-sizing:inherit;
+}
+body {
+  font-weight:300;
+  margin:0;
+  background-color:#fffbf1; /* off-white to warm the page */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family:'Quicksand',sans-serif;
+  font-weight:600;
+}
+a {
+  color:#820333;
+}
+/* -- 1a. General layout classes */
+.page-container{
+  max-width:1200px;
+  margin:0 auto;
+}
+.grid{
+  display: grid;
+  place-content: center;
+}
+.grid-2{
+  grid-template-columns: 80% 20%;
+}
+.grid-1{
+  grid-template-columns: 100%;
+}
+/* 2. HEADER */
+#header{
+  background-color:#a05ea6;
+  margin-bottom:2em;
+  color: white;
+  border-radius: 8px;
+}
+#contentblogs{
+  width: 1200px;
+  height: 300px;
+  margin-left: 110px;
+  background-color:#a05ea6;
+  margin-bottom:2em;
+  color: white;
+  border-radius: 8px;
+}
+#skills{
+  width: 1200px;
+  height: 220px;
+  margin-left: 110px;
+  background-color:#a05ea6;
+  margin-bottom:2em;
+  color: white;
+  border-radius: 8px;
+}
+#projects{
+  width: 1200px;
+  height: 310px;
+  margin-left: 110px;
+  background-color:#a05ea6;
+  margin-bottom:2em;
+  color: white;
+  border-radius: 8px;
+}
+#educations{
+  width: 1200px;
+  height: 160px;
+  margin-left: 110px;
+  background-color:#a05ea6;
+  margin-bottom:2em;
+  color: white;
+  border-radius: 8px;
+}
+#header > .page-container {
+  padding:2em; /* Contents to have some padding also main-menu background
+                  color goes all the way across the page width */
+}
+#header a {
+  color:#fff;
+  text-decoration:none;
+} 
+#header a:hover {
+  color:#260f25;
+}
+#site-name{
+  font-family:'Playball',sans-serif;	
+  font-size: 2em;
+  color:#fff;
+  padding-left: 20px;
+} 
+#occupation{
+  margin:-1.9em 0 1em 0;
+  color:#fff;
+  padding-left: 20px;
+} 
+/* 3. MENU */
+#main-menu a {
+  font-size:1.15em;
+  color:#fff;
+}
+#main-menu a:hover {
+  color:#ffe5a5;
+}
+.menu {
+  padding:0 1em;
+  font-family:'Quicksand',sans-serif;
+  font-weight:500;
+  align-items: center;
+  justify-content: center;
+  margin:0 10em;
+}
+.menu li {
+  display:inline-block;
+  list-style-type:none;
+  margin-right:1.7em;
+  vertical-align:top;
+  text-transform:uppercase;
+  padding:0.5em 0;
+}
+#tag {
+  float: right;
+  margin:2.2em 0 1em 1.8em;
+}
+.inline li {
+  display:inline-block;
+  list-style-type:none;
+  margin-right:1.7em; 
+}
+#center2 {
+  background-color:#a05ea6;
+  color: white;
+  border-radius: 8px;
+  padding:0.5em 0;
+  margin-left:220px;
+}
+#title {
+  padding-left: 120px;
+}
+#content {
+  font-size: 20px;
+}
+#center {
+  margin-left:200px;
+}
+#edmargin{
+  margin-left: 120px;
+  margin-bottom: -25px ;
+}
+#stardatmargin{
+  margin-left: -60px;
+  font-size: 20px; 
+}
+#enddatmargin{
+  margin-left: 0px;
+  font-size: 20px;
+} 
+.inline li {
+  display:inline-block;
+  list-style-type:none;
+  margin-right:1.7em;
+  vertical-align:top;
+  text-transform:uppercase;
+  padding:0.5em 0;
+}
+#college{
+  margin-top: 20px;
+  margin-left: -20px;
+}
+#center1 {
+  text-align: center;
+  margin-left:5em;
+}
+.contact_me {
+  margin:2.2em 0 1em 1.8em;
+  text-align: center;
+}
+#institute {
+  margin:2em 0 2em 2em;
+  text-align: center;
+}
+#margin {
+  margin-bottom:10em;
+}
+#program {
+  font-size: 20px;
+}
+#skilllogo {
+  margin-top: 20px;
+}
+.card {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  background: #a05ea6;
+  color: white;
+  border-radius: 8px;
+  margin: 20px;
+}
+.card-image {
+  margin: 0;
+  height: 220px;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 10px;
+}
+/* 2. FOOTER */
+#footer {
+  background-color:#a05ea6;
+  margin-bottom:2em;
+  color: white;
+  border-radius: 8px;
+}
+#footer > .page-container {
+  padding:2em; /* Contents to have some padding also main-menu background
+                  color goes all the way across the page width */
+}

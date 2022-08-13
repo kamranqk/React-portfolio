@@ -1,0 +1,9 @@
+body {
+  font-weight:300;
+  margin:0;
+  background-color:#fffbf1; /* off-white to warm the page */
+  background-image: url('tropical.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}  
