@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# URL for online portfolio
+
+https://laravel-cms-deploy.herokuapp.com/public/
 
 ## Available Scripts
 
